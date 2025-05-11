@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/ASUS/OneDrive%20-%20Universitas%20Diponegoro/Cari%20Kerja/PT%20Data%20Labs%20Analytics%20%28datalabs.id%29/4.%20Use%20Case%20Projects/Training%20Project%20Customer%20Segmentation/mlruns/401433165204753081/dbfefa14d9a444b783a843b2b4eec9bc/artifacts
+end_time: 1732171805827
+entry_point_name: ''
+experiment_id: '401433165204753081'
+lifecycle_stage: active
+run_id: dbfefa14d9a444b783a843b2b4eec9bc
+run_name: clean-moose-578
+run_uuid: dbfefa14d9a444b783a843b2b4eec9bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732171804544
+status: 3
+tags: []
+user_id: ASUS

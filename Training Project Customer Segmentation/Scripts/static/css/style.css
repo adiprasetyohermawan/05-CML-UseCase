@@ -1,0 +1,18 @@
+body {
+  /* Path to your background image */
+  background-image: url("../background.jpg");
+  /* Cover the entire page */
+  background-size: cover;
+  /* Center the image */
+  background-position: center;
+  /* Prevent tiling */
+  background-repeat: no-repeat;
+  /* Change text color to white for contrast */
+  color: white;
+}
+.container {
+  /* Semi-transparent background for better readability */
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}

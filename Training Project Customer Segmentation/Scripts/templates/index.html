@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Segmentation</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Input Your Data for Prediction</h1>
+      <form action="/predict" method="post" class="mt-4">
+        <div class="form-group was-validated">
+          <label for="age">Age:</label>
+          <input
+            type="number"
+            class="form-control"
+            name="age"
+            placeholder="e.g., 30"
+            required
+          />
+        </div>
+        <div class="form-group was-validated">
+          <label for="bank_id">Bank ID:</label>
+          <!-- <input type="text" class="form-control" name="bank_id" required /> -->
+          <select
+            class="custom-select"
+            id="inputGroupSelect01"
+            name="bank_id"
+            required
+          >
+            <option value="">Choose...</option>
+            <option value="002">BRI</option>
+            <option value="008">Bank Mandiri</option>
+            <option value="009">BNI</option>
+            <option value="011">Bank Danamon</option>
+            <option value="013">Bank Permata</option>
+            <option value="014">BCA</option>
+            <option value="022">Bank CIMB Niaga</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid bank</div>
+        </div>
+        <div class="form-group was-validated">
+          <label for="city">City:</label>
+          <!-- <input type="text" class="form-control" name="city" required /> -->
+          <select
+            class="form-control custom-select"
+            id="inputGroupSelect02"
+            name="city"
+            required
+          >
+            <option value="">Choose...</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Medan">Medan</option>
+            <option value="Semarang">Semarang</option>
+            <option value="Surabaya">Surabaya</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid city</div>
+        </div>
+        <div class="form-group was-validated">
+          <label for="total_transaction">Total Transaction:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="total_transaction"
+            placeholder="e.g., 4500000"
+            required
+          />
+          <div class="invalid-feedback">
+            Enter the total transaction amount here. Please use the correct
+            format (e.g., 4500000).
+          </div>
+        </div>
+        <div class="form-group was-validated">
+          <label for="income">Income:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="income"
+            placeholder="e.g., 3000000"
+            required
+          />
+          <div class="invalid-feedback">
+            Enter the income amount here. Please use the correct format (e.g.,
+            3000000).
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../static/js/script.js"></script>
+  </body>
+</html>

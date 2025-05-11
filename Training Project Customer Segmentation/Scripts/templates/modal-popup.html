@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      .modal-body table th,
+      .modal-body table td {
+        text-align: center;
+        vertical-align: middle;
+      }
+      .modal-body table th {
+        background-color: #f1f1f1;
+      }
+    </style>
+    <!-- Button to Open Feature Encoding Notes Modal -->
+    <button
+      id="button_modal"
+      type="button"
+      class="btn btn-info mt-4"
+      data-bs-toggle="modal"
+      data-bs-target="#encodingNotesModal"
+    >
+      View Feature Encoding Notes
+    </button>
+
+    <!-- Feature Encoding Notes Modal -->
+    <div
+      class="modal fade"
+      id="encodingNotesModal"
+      tabindex="-1"
+      aria-labelledby="encodingNotesModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="encodingNotesModalLabel">
+              Feature Encoding Notes
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Category</th>
+                  <th>Encoded Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- DOB Age Interval Encoding -->
+                <tr>
+                  <td rowspan="9">DOB (Age Interval)</td>
+                  <td>19-22</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>23-26</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>27-30</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>31-34</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>35-38</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>39-42</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>43-46</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>47-50</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>51-54</td>
+                  <td>9</td>
+                </tr>
+
+                <!-- Bank ID Encoding -->
+                <tr>
+                  <td rowspan="7">Bank ID</td>
+                  <td>BRI (002)</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Bank Mandiri (008)</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>BNI (009)</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Bank Danamon (011)</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Bank Permata (013)</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>BCA (014)</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>Bank CIMB Niaga (022)</td>
+                  <td>7</td>
+                </tr>
+
+                <!-- City Encoding -->
+                <tr>
+                  <td rowspan="5">City</td>
+                  <td>Bandung</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Jakarta</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Medan</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Semarang</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Surabaya</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>

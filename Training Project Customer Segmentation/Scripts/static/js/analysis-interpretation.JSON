@@ -1,0 +1,107 @@
+{
+    "0": {
+      "title": "Cluster 0 Interpretation",
+      "sections": [
+        {
+          "subtitle": "Bank Affiliation",
+          "content": "The mean value is approximately 2.14, with values ranging from 1 to 4. This suggests that most customers in this cluster likely use either: BRI (1) or Bank Mandiri (2), with fewer using BNI (3) or Bank Danamon (4)."
+        },
+        {
+          "subtitle": "Age Group",
+          "content": "The mean value for dob is approximately 5.47, indicating that the age group typically falls around the interval 39-42 (6). With values spanning from 1 to 9, this cluster includes a broader age range but is centered around those aged 39-42."
+        },
+        {
+          "subtitle": "City Distribution",
+          "content": "The mean city value is approximately 4.19, with a minimum of 2 and a maximum of 5. This suggests that customers in this cluster predominantly reside in Semarang (4) and Surabaya (5), with some presence in Jakarta (2) as well."
+        },
+        {
+          "subtitle":"Transaction Volume",
+          "content":"The mean transaction count is around 506.6 million, with a minimum of around 1.22 million and a maximum nearing 1 billion. This wide range in transaction volume indicates that customers in this cluster engage in high-value transactions, with the majority performing above the 50th percentile (around 509 million)."
+        },
+        {
+          "subtitle":"Income Levels",
+          "content":"The mean income is around 5.89 million, with values ranging from about 2 million to 9.98 million. This indicates that customers in Cluster 0 have a relatively high income, with the median income at approximately 5.84 million."
+        }
+      ],
+      "summary": "Cluster 0 appears to represent a segment of customers who: Primarily use BRI or Bank Mandiri. Are generally in the age group of 39-42, but may range between 19 and 54. Mostly reside in Semarang or Surabaya, with some in Jakarta. Tend to have high transaction volumes and relatively high incomes."
+    },
+    "1": {
+      "title": "Cluster 1 Interpretation",
+      "sections": [
+        {
+          "subtitle":"Bank Affiliation",
+          "content":"Mean value is approximately 4.41, with values ranging from 1 to 7. The 25th percentile is 3, the median (50%) is 4, and the 75th percentile is 6. This suggests that customers in this cluster likely use banks encoded as: Bank Danamon (4), Bank Permata (5), BCA (6), and CIMB Niaga (7), with some presence from BRI (1), Bank Mandiri (2), and BNI (3)."
+        },
+        {
+          "subtitle":"Age Group",
+          "content":"Mean value for dob is approximately 7.31, which places the typical age group around 43-46 (7). Values span from 4 to 9, indicating a range from 31 to 54 years old. The 25th percentile is 6 (39-42), the median is 7 (43-46), and the 75th percentile is 8 (47-50). This suggests that most customers in this cluster are older, primarily between 39 and 50."
+        },
+        {
+          "subtitle":"City Distribution",
+          "content":"Mean city value is approximately 1.80, with a range from 1 to 4. The 25th and 50th percentiles are both 2, indicating that a significant portion of this cluster resides in Jakarta. The presence of values 1 and 4 shows that some customers also live in Bandung and Semarang."
+        },
+        {
+          "subtitle": "Transaction Volume",
+          "content": "Mean transaction count is approximately 507.1 million, with a minimum of around 1.85 million and a maximum nearing 998 million. The 25th percentile is approximately 262.6 million, the median is about 498.7 million, and the 75th percentile is around 760.5 million. This indicates a high level of transaction volume, with the majority performing transactions above 498 million."
+        },
+        {
+          "subtitle": "Income Levels",
+          "content": "Mean income is approximately 5.82 million, with values ranging from around 2 million to almost 10 million. The 25th percentile is about 3.82 million, the median is approximately 5.72 million, and the 75th percentile is around 7.84 million. This suggests that customers in this cluster have moderate to high incomes, with the majority earning above 5.72 million."
+        }
+      ],
+      "summary": "Cluster 1 appears to represent a segment of customers who: Primarily bank with institutions like Bank Danamon, Bank Permata, BCA, and CIMB Niaga, indicating a preference for well-known banks with wider service options. Tend to be in the older age groups, particularly between 39 and 50, suggesting a more mature demographic. Predominantly reside in Jakarta, with a small number in Bandung and Semarang. Have high transaction volumes, suggesting significant financial activity. Possess moderate to high incomes."
+    },
+    "2": {
+      "title": "Cluster 2 Interpretation",
+      "sections": [
+        {
+          "subtitle": "Bank Affiliation",
+          "content": "Mean bank ID value is approximately 5.84, with values ranging from 4 to 7. The 25th percentile is 5, the median is 6, and the 75th percentile is 7. This indicates that most customers in this cluster bank with institutions such as Bank Permata (5), BCA (6), or CIMB Niaga (7), suggesting a preference for these banks."
+        },
+        {
+          "subtitle": "Age Group",
+          "content": "Mean value for dob is approximately 4.54, indicating an average age around 31-34 (4). Values range from 1 to 9, so customers in this cluster span all age groups. The 25th percentile is 3 (27-30), the median is 4 (31-34), and the 75th percentile is 6 (39-42). This implies that most customers in this cluster are in the 27-42 age range, with a concentration in the 31-34 group."
+        },
+        {
+          "subtitle": "City Distribution",
+          "content": "Mean city value is approximately 4.18, with values ranging from 2 to 5. The 25th and 50th percentiles are 4, indicating that many customers are likely from Semarang, with some from Jakarta and Surabaya. This suggests that Cluster 2 has a concentration of customers in Semarang, with fewer in Jakarta and Surabaya."
+        },
+        {
+          "subtitle":"Transaction Volume",
+          "content":"Mean transaction volume is approximately 501.1 million, with values ranging from about 126 million to nearly 1 billion. The 25th percentile is 256.9 million, the median is about 493.5 million, and the 75th percentile is around 757.5 million. This indicates that customers in this cluster engage in relatively high transaction volumes, with the majority performing transactions above 493 million."
+        },
+        {
+          "subtitle":"Income Levels",
+          "content":"Mean income is approximately 6.05 million, with a minimum of around 2 million and a maximum nearing 10 million. The 25th percentile is around 4.13 million, the median is approximately 6.02 million, and the 75th percentile is around 8.1 million. This suggests that Cluster 2 customers generally have moderate to high incomes, with many earning above 6 million."
+        }
+      ],
+      "summary": "Cluster 2 appears to represent a segment of customers who: Predominantly bank with institutions such as Bank Permata, BCA, and CIMB Niaga. Are mostly in the 27-42 age range, with a focus on the 31-34 age group, indicating a relatively younger demographic compared to other clusters. Primarily reside in Semarang, with some presence in Jakarta and Surabaya. Engage in high transaction volumes, suggesting significant financial activity. Have moderate to high incomes, with a central income around 6 million."
+    },
+    "3": {
+      "title": "Cluster 3 Interpretation",
+      "sections": [
+        {
+          "subtitle": "Bank Affiliation",
+          "content": "The average bank ID is approximately 3.49, which is close to the values for BNI (3) and Bank Danamon (4). This suggests that most customers in this cluster bank with BNI or Bank Danamon. The high standard deviation (1.82) indicates some variation in bank preferences, but BNI and Bank Danamon are the primary banks for this cluster."
+        },
+        {
+          "subtitle": "Age Group",
+          "content": "The average dob (age cluster) is around 2.65, which is close to 3, corresponding to the 27-30 age group. This suggests that the majority of individuals in this cluster are young adults in their late 20s."
+        },
+        {
+          "subtitle": "City Distribution",
+          "content": "The average city encoding is approximately 1.78, close to 2 (Jakarta). This indicates that most customers in this cluster are likely located in Jakarta, with some possibly residing in other cities, though Jakarta is predominant."
+        },
+        {
+          "subtitle":"Transaction Volume",
+          "content":"The average transaction amount is around 491,110,000, with a high standard deviation, indicating significant variation. This suggests that this group has a mix of customers with both high and low transaction volumes."
+        },
+        {
+          "subtitle":"Income Levels",
+          "content":"The average income is around 6,147,620, with the income range extending from 2,008,480 to almost 9,999,899. This shows a middle to high-income range within the cluster, with considerable variation in individual incomes."
+        }
+      ],
+      "summary": "Cluster 3 mainly consists of young professionals in their late 20s, primarily located in Jakarta and banking with BNI or Bank Danamon. They have varied financial activity, as seen from the wide range in transaction volumes, and generally stable to high incomes. This cluster likely represents a segment of financially active young adults in an urban setting, demonstrating diverse financial behaviors with a stable income base."
+    }
+  }
+  

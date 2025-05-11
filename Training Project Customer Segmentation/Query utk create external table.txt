@@ -1,0 +1,13 @@
+CREATE TABLE testing_wawan.mall_customers_acid
+CLUSTERED BY (customer_id) INTO 10 BUCKETS
+STORED AS ORC
+TBLPROPERTIES ('transactional'='true')
+AS
+SELECT *
+FROM testing_wawan.mall_customers;
+
+CREATE EXTERNAL TABLE testing_wawan.mall_customers_acid
+TBLPROPERTIES ('transactional'='true')
+AS
+SELECT *
+FROM testing_wawan.mall_customers;
